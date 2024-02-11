@@ -1,0 +1,10 @@
+AND -> (
+    OR -> (
+        COURSE -> ('CIS*1300'), 
+        COURSE -> ('ENGG*1410')
+    ), 
+    OR -> (
+        COURSE -> ('CIS*1910'), 
+        COURSE -> ('ENGG*1500')
+    )
+)

@@ -1,0 +1,31 @@
+{
+    "type": "AND",
+    "children": [
+        {
+            "type": "OR",
+            "children": [
+                {
+                    "type": "COURSE",
+                    "value": "CIS*1300"
+                },
+                {
+                    "type": "COURSE",
+                    "value": "ENGG*1410"
+                }
+            ]
+        },
+        {
+            "type": "OR",
+            "children": [
+                {
+                    "type": "COURSE",
+                    "value": "CIS*1910"
+                },
+                {
+                    "type": "COURSE",
+                    "value": "ENGG*1500"
+                }
+            ]
+        }
+    ]
+}
